@@ -1,0 +1,13 @@
+#https://docs.docker.com/compose/gettingstarted/
+
+version: "3.7"
+
+services:
+  web:
+    image: planetsnu_mongodb_web:v0.2
+    build:
+      context: .
+      args:
+        - buildno=1
+    ports:
+      - "3000:3000"

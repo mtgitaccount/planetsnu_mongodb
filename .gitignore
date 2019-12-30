@@ -1,0 +1,5 @@
+#stuff I don't want to have in the rep
+
+testdata_import.txt
+data_military_score.txt
+node_modules/

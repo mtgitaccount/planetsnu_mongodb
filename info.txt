@@ -1,0 +1,19 @@
+
+mongo "mongodb+srv://cluster0-0g6eq.mongodb.net/test" --username martin
+
+
+
+Building the Docker Container from Dockerfile:
+https://nodejs.org/de/docs/guides/nodejs-docker-webapp/
+
+Using docker-compose
+https://docs.docker.com/compose/gettingstarted/
+
+
+Application kann gestartet werden:
+
+docker-compose up -d
+
+wenn sich das docker-compose file ändert wird das Image neu erstellt und der
+Container neu gestartet.  im image:  tag genügt es eine neue Versionsnummer
+anzugeben, damit der Update funktioniert 
